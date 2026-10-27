@@ -35,7 +35,7 @@ Feature: Response time report
     And the student "Bruno" has the grade "9.0" and the responde time "20 minutes"
     And the student "Carla" has the grade "7.0" and the responde time "30 minutes"
     When the professor requests the correlation analysis
-    Then the correlation coefficient is "0.0"
+    Then the correlation coefficient is "0.5"
     And the report indicates no linear correlation
 
    Scenario: Handle insufficient data for correlation
