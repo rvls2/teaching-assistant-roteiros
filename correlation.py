@@ -18,6 +18,6 @@ def calcular_correlacao(X, Y):
 
 # Exemplo de uso:
 notas = [5.0, 7.0, 9.0]
-tempo = [30, 10, 20]
+tempo = [10, 30, 20]
 
 print(calcular_correlacao(notas, tempo))
